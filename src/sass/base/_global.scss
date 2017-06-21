@@ -53,3 +53,12 @@ body {
 		font-size:16px;
 	}
 }
+
+a {
+	color:inherit;
+	text-decoration:underline;
+
+	&:hover {
+		color:$yellow85;
+	}
+}

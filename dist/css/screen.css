@@ -6152,3 +6152,9 @@ body {
   .cta-wrap p {
     color: #fff200;
     font-size: 16px; }
+
+a {
+  color: inherit;
+  text-decoration: underline; }
+  a:hover {
+    color: rgba(255, 242, 0, 0.85); }
