@@ -1,6 +1,13 @@
 body {
-	background:-webkit-linear-gradient(rgba(0,0,0,0), $yellow 100%) no-repeat bottom right, url(../img/main-bg.jpg) no-repeat bottom right;
-	background-size:cover;
+	background: url(../img/main-bg.jpg) top center;
+}
+
+.gradbg {
+	background: -webkit-linear-gradient(rgba(0,0,0,0), $yellow 40%) no-repeat bottom right;
+}
+
+.blackgrad {
+	background: -webkit-linear-gradient(rgba(0,0,0,0), #000 50%) no-repeat bottom right;
 }
 
 .jumbotron {
@@ -9,10 +16,11 @@ body {
 
 .lede {
 	background:$yellow85;
-	padding:25px;
+	padding:15px;
 	margin-top:25px;
 	h2 {
 		font-size:60px;
+		word-spacing:5px;
 	}
 
 	p {
@@ -39,7 +47,6 @@ body {
 }
 
 .cta-wrap {
-	background-color:black;
 	margin-top:25px;
 	padding-bottom:25px;
 	font-weight:bolder;

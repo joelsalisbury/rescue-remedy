@@ -6109,18 +6109,24 @@ th {
   font-family: "Garden Grown", cursive; }
 
 body {
-  background: -webkit-linear-gradient(transparent, #fff200 100%) no-repeat bottom right, url(../img/main-bg.jpg) no-repeat bottom right;
-  background-size: cover; }
+  background: url(../img/main-bg.jpg) top center; }
+
+.gradbg {
+  background: -webkit-linear-gradient(transparent, #fff200 40%) no-repeat bottom right; }
+
+.blackgrad {
+  background: -webkit-linear-gradient(transparent, #000 50%) no-repeat bottom right; }
 
 .jumbotron {
   background: transparent; }
 
 .lede {
   background: rgba(255, 242, 0, 0.85);
-  padding: 25px;
+  padding: 15px;
   margin-top: 25px; }
   .lede h2 {
-    font-size: 60px; }
+    font-size: 60px;
+    word-spacing: 5px; }
   .lede p {
     font-weight: bolder;
     font-size: 16px; }
@@ -6141,7 +6147,6 @@ body {
   border-radius: 6px; }
 
 .cta-wrap {
-  background-color: black;
   margin-top: 25px;
   padding-bottom: 25px;
   font-weight: bolder; }
