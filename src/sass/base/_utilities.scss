@@ -1,6 +1,10 @@
 @font-face {
     font-family: "Garden Grown";
-    src: url(../fonts/GardenGrown.otf);
+    src: url('../fonts/GardenGrown.otf');
+	src: url('../fonts/gardengrown-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('../fontsgardengrown-webfont.woff2') format('woff2'),
+	         url('../fonts/gardengrown-webfont.woff') format('woff'),
+	         url('../fonts/gardengrown-webfont.ttf') format('truetype');
 }
 
 .font-gg {
