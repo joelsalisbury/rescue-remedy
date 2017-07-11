@@ -6110,8 +6110,7 @@ th {
   font-family: "Garden Grown", cursive; }
 
 body {
-  background-color: #000;
-  background: url(../img/main-bg.jpg) top center; }
+  background: #000 url(../img/main-bg.jpg) top center no-repeat; }
 
 .gradbg {
   background: linear-gradient(transparent, #fff200 40%) no-repeat bottom right;
