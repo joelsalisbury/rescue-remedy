@@ -6132,7 +6132,7 @@ th {
   position: absolute;
   bottom: 0px;
   right: 0px;
-  z-index: 0; }
+  z-index: 1; }
 
 .yellow-stroke {
   border: 6px solid rgba(255, 242, 0, 0.85);
@@ -6140,6 +6140,10 @@ th {
 
 .prod-ftr-img-wrap {
   text-align: center; }
+
+.propodBannerEmbed {
+  position: relative;
+  z-index: 2; }
 
 .prod-ftr {
   margin-top: 50px;
@@ -6173,7 +6177,8 @@ th {
   margin-top: 5vh;
   padding: 40px;
   position: relative;
-  color: rgba(255, 242, 0, 0.85); }
+  color: rgba(255, 242, 0, 0.85);
+  z-index: 0; }
   .lede h2 {
     font-size: 60px;
     word-spacing: 5px; }

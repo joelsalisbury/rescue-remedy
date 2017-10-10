@@ -4,6 +4,7 @@
 	background-size:cover;
 	min-height:90vh;
 	position:relative;
+	
 }
 
 .gradbg {
@@ -29,7 +30,7 @@
 	position:absolute;
 	bottom:0px;
 	right:0px;
-	z-index:0;
+	z-index:1;
 }
 
 .yellow-stroke {
@@ -39,6 +40,11 @@
 
 .prod-ftr-img-wrap {
 	text-align:center;
+}
+
+.propodBannerEmbed {
+	position:relative;
+	z-index:2;
 }
 
 .prod-ftr {
@@ -81,6 +87,7 @@
 	padding:40px;
 	position:relative;
 	color:$yellow85;
+	z-index:0;
 	h2 {
 		font-size:60px;
 		word-spacing:5px;
