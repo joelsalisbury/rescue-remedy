@@ -3,7 +3,9 @@
 	background-attachment:fixed;
 	background-size:cover;
 	min-height:90vh;
+	max-height:700px;
 	position:relative;
+	z-index:-2;
 	
 }
 
@@ -30,7 +32,8 @@
 	position:absolute;
 	bottom:0px;
 	right:0px;
-	z-index:1;
+	z-index:0;
+	object-fit:cover;
 }
 
 .yellow-stroke {
@@ -51,8 +54,6 @@
 	margin-top:50px;
 	padding:50px;
 	padding-bottom:0px;
-	display:flex;
-	align-items:center;
 	h2 {
 		font-size:70px;
 		font-weight: 400;

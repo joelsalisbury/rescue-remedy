@@ -6114,7 +6114,9 @@ th {
   background-attachment: fixed;
   background-size: cover;
   min-height: 90vh;
-  position: relative; }
+  max-height: 700px;
+  position: relative;
+  z-index: -2; }
 
 .gradbg {
   background: linear-gradient(transparent, #fff200 40%) no-repeat bottom right;
@@ -6132,7 +6134,9 @@ th {
   position: absolute;
   bottom: 0px;
   right: 0px;
-  z-index: 1; }
+  z-index: 0;
+  -o-object-fit: cover;
+     object-fit: cover; }
 
 .yellow-stroke {
   border: 6px solid rgba(255, 242, 0, 0.85);
@@ -6148,13 +6152,7 @@ th {
 .prod-ftr {
   margin-top: 50px;
   padding: 50px;
-  padding-bottom: 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
+  padding-bottom: 0px; }
   .prod-ftr h2 {
     font-size: 70px;
     font-weight: 400; }
