@@ -6178,7 +6178,7 @@ th {
     word-spacing: 5px;
     line-height: 68px; }
   .lede h3 {
-    color: #fff;
+    color: rgba(255, 242, 0, 0.85);
     font-size: 18px;
     text-transform: uppercase;
     margin-top: 0px;
