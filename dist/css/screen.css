@@ -6113,8 +6113,8 @@ th {
   background: url(../img/background.png) no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  min-height: 90vh;
-  max-height: 700px;
+  max-height: 950px;
+  padding: 50px;
   position: relative;
   z-index: -2; }
 
@@ -6164,15 +6164,11 @@ th {
   position: relative;
   max-width: 100%; }
 
-.prod-highlight {
-  position: relative;
-  top: -70px; }
-  .prod-highlight p {
-    font-size: 16px; }
+.prod-highlight p {
+  font-size: 16px; }
 
 .lede {
   border: 6px solid rgba(255, 242, 0, 0.85);
-  margin-top: 5vh;
   padding: 40px;
   position: relative;
   color: rgba(255, 242, 0, 0.85);
@@ -6222,3 +6218,15 @@ a {
   margin-top: 50px;
   padding-top: 15px;
   padding-bottom: 15px; }
+
+@media screen and (min-width: 992px) {
+  .prod-ftr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .prod-highlight {
+    position: relative;
+    top: -70px; } }

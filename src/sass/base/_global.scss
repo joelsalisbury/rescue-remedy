@@ -2,8 +2,8 @@
 	background: url(../img/background.png)  no-repeat;
 	background-attachment:fixed;
 	background-size:cover;
-	min-height:90vh;
-	max-height:700px;
+	max-height:950px;
+	padding:50px;
 	position:relative;
 	z-index:-2;
 	
@@ -64,18 +64,13 @@
 	}
 }
 
-.prod-details {
-	
-}
-
 .prod-ftr-img {
 	position:relative;
 	max-width:100%;
 }
 
 .prod-highlight {
-	position:relative;
-	top:-70px;
+
 	p {
 		font-size:16px;
 
@@ -84,7 +79,6 @@
 
 .lede {
 	border:6px solid $yellow85;
-	margin-top:5vh;
 	padding:40px;
 	position:relative;
 	color:$yellow85;
