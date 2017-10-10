@@ -29,7 +29,50 @@
 	position:absolute;
 	bottom:0px;
 	right:0px;
-	z-index:2;
+	z-index:0;
+}
+
+.yellow-stroke {
+	border:6px solid $yellow85;
+	position:relative;
+}
+
+.prod-ftr-img-wrap {
+	text-align:center;
+}
+
+.prod-ftr {
+	margin-top:50px;
+	padding:50px;
+	padding-bottom:0px;
+	display:flex;
+	align-items:center;
+	h2 {
+		font-size:70px;
+		font-weight: 400;
+	}
+	p {
+		font-size:24px;
+		font-weight: lighter;
+	}
+}
+
+.prod-details {
+	
+}
+
+.prod-ftr-img {
+	position:relative;
+	max-width:100%;
+}
+
+.prod-highlight {
+	position:relative;
+	top:-70px;
+	p {
+		font-size:16px;
+
+	}
 }
 
 .lede {
@@ -88,4 +131,11 @@ a {
 	&:hover {
 		color:$yellow85;
 	}
+}
+
+.footer {
+	background-color:$yellow;
+	margin-top:50px;
+	padding-top:15px;
+	padding-bottom:15px;
 }
