@@ -3,7 +3,6 @@
 	background-attachment:fixed;
 	background-size:cover;
 	max-height:950px;
-	padding:50px;
 	position:relative;
 	z-index:-2;
 	
@@ -32,7 +31,7 @@
 	position:absolute;
 	bottom:0px;
 	right:0px;
-	z-index:0;
+	z-index:1;
 	object-fit:cover;
 }
 
@@ -82,7 +81,9 @@
 	padding:40px;
 	position:relative;
 	color:$yellow85;
-	z-index:0;
+	margin-top:50px;
+	margin-bottom:50px;
+	
 	h2 {
 		font-size:60px;
 		word-spacing:5px;

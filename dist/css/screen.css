@@ -6114,7 +6114,6 @@ th {
   background-attachment: fixed;
   background-size: cover;
   max-height: 950px;
-  padding: 50px;
   position: relative;
   z-index: -2; }
 
@@ -6134,7 +6133,7 @@ th {
   position: absolute;
   bottom: 0px;
   right: 0px;
-  z-index: 0;
+  z-index: 1;
   -o-object-fit: cover;
      object-fit: cover; }
 
@@ -6172,7 +6171,8 @@ th {
   padding: 40px;
   position: relative;
   color: rgba(255, 242, 0, 0.85);
-  z-index: 0; }
+  margin-top: 50px;
+  margin-bottom: 50px; }
   .lede h2 {
     font-size: 60px;
     word-spacing: 5px; }
