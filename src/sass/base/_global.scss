@@ -1,5 +1,9 @@
-body {
-	background: #000 url(../img/main-bg.jpg) top center no-repeat;
+#mainbg {
+	background: url(../img/background.png)  no-repeat;
+	background-attachment:fixed;
+	background-size:cover;
+	min-height:90vh;
+	position:relative;
 }
 
 .gradbg {
@@ -20,10 +24,20 @@ body {
 	background:transparent;
 }
 
+.bottom-pin {
+	max-width:60vw;
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	z-index:2;
+}
+
 .lede {
-	background:$yellow85;
-	padding:15px;
-	margin-top:25px;
+	border:6px solid $yellow85;
+	margin-top:5vh;
+	padding:40px;
+	position:relative;
+	color:$yellow85;
 	h2 {
 		font-size:60px;
 		word-spacing:5px;
