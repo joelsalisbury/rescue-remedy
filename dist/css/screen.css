@@ -6114,8 +6114,7 @@ th {
   background-attachment: fixed;
   background-size: cover;
   max-height: 950px;
-  position: relative;
-  z-index: -2; }
+  position: relative; }
 
 .gradbg {
   background: linear-gradient(transparent, #fff200 40%) no-repeat bottom right;
@@ -6135,7 +6134,8 @@ th {
   right: 0px;
   z-index: 1;
   -o-object-fit: cover;
-     object-fit: cover; }
+     object-fit: cover;
+  display: none; }
 
 .yellow-stroke {
   border: 6px solid rgba(255, 242, 0, 0.85);
@@ -6174,8 +6174,16 @@ th {
   margin-top: 50px;
   margin-bottom: 50px; }
   .lede h2 {
-    font-size: 60px;
-    word-spacing: 5px; }
+    font-size: 68px;
+    word-spacing: 5px;
+    line-height: 68px; }
+  .lede h3 {
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 0px;
+    position: relative;
+    top: -10px; }
   .lede p {
     font-weight: bolder;
     font-size: 16px; }
@@ -6208,10 +6216,10 @@ th {
     font-size: 16px; }
 
 a {
-  color: inherit;
+  color: #008ae1;
   text-decoration: underline; }
   a:hover {
-    color: rgba(255, 242, 0, 0.85); }
+    color: #15a5ff; }
 
 .footer {
   background-color: #fff200;
@@ -6230,4 +6238,6 @@ a {
             align-items: center; }
   .prod-highlight {
     position: relative;
-    top: -70px; } }
+    top: -70px; }
+  .bottom-pin {
+    display: block; } }

@@ -4,7 +4,6 @@
 	background-size:cover;
 	max-height:950px;
 	position:relative;
-	z-index:-2;
 	
 }
 
@@ -33,6 +32,7 @@
 	right:0px;
 	z-index:1;
 	object-fit:cover;
+	display:none;
 }
 
 .yellow-stroke {
@@ -65,7 +65,7 @@
 
 .prod-ftr-img {
 	position:relative;
-	max-width:100%;
+	max-width:100%; 
 }
 
 .prod-highlight {
@@ -80,13 +80,23 @@
 	border:6px solid $yellow85;
 	padding:40px;
 	position:relative;
-	color:$yellow85;
+	color:$yellow85; 
 	margin-top:50px;
 	margin-bottom:50px;
 	
 	h2 {
-		font-size:60px;
+		font-size:68px;
 		word-spacing:5px;
+		line-height:68px;
+	}
+
+	h3 {
+		color:#fff;
+		font-size:18px;
+		text-transform: uppercase;
+		    margin-top: 0px;
+    position: relative;
+    top: -10px;
 	}
 
 	p {
@@ -128,11 +138,12 @@
 }
 
 a {
-	color:inherit;
+	color:#008ae1;
 	text-decoration:underline;
 
 	&:hover {
-		color:$yellow85;
+		color:lighten(#008ae1, 10%);
+	
 	}
 }
 
