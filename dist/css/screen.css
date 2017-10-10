@@ -6217,7 +6217,8 @@ a {
   background-color: #fff200;
   margin-top: 50px;
   padding-top: 15px;
-  padding-bottom: 15px; }
+  padding-bottom: 15px;
+  font-size: 11px; }
 
 @media screen and (min-width: 992px) {
   .prod-ftr {
