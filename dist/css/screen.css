@@ -6166,6 +6166,11 @@ th {
 .prod-highlight p {
   font-size: 16px; }
 
+.content-main {
+  background-color: #fff;
+  z-index: 2;
+  position: relative; }
+
 .lede {
   border: 6px solid rgba(255, 242, 0, 0.85);
   padding: 40px;
@@ -6241,3 +6246,7 @@ a {
     top: -70px; }
   .bottom-pin {
     display: block; } }
+
+@media screen and (min-width: 1700px) {
+  .bottom-pin {
+    bottom: -10vw; } }

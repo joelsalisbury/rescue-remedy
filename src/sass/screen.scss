@@ -12,5 +12,8 @@
 	@import 'screens/tablet';
 }
 
+@media screen and (min-width:1700px) {
+	@import 'screens/extralarge';
+}
 
 

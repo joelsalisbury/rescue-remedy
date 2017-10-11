@@ -76,6 +76,12 @@
 	}
 }
 
+.content-main {
+	background-color:#fff;
+	z-index:2;
+	position:relative;
+}
+
 .lede {
 	border:6px solid $yellow85;
 	padding:40px;
