@@ -6215,6 +6215,11 @@ th {
   font-weight: bolder;
   border-radius: 6px; }
 
+.btn-yellow {
+  background-color: rgba(255, 242, 0, 0.85);
+  border: none;
+  text-decoration: none; }
+
 .cta-wrap {
   margin-top: 25px;
   padding-bottom: 25px;
