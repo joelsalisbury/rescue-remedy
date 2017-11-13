@@ -1,8 +1,10 @@
 #mainbg {
-	background: url(../img/background.png)  no-repeat;
+	background: url(../img/new-rescue-background.jpg)  no-repeat;
 	background-attachment:fixed;
 	background-size:cover;
-	max-height:950px;
+	min-height:100vh;
+	display:flex;
+	align-items:center;
 	position:relative;
 	
 }
@@ -47,6 +49,7 @@
 .propodBannerEmbed {
 	position:relative;
 	z-index:2;
+	margin-bottom:45px;
 }
 
 .prod-ftr {

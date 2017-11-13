@@ -6110,10 +6110,16 @@ th {
   font-family: "Garden Grown", cursive; }
 
 #mainbg {
-  background: url(../img/background.png) no-repeat;
+  background: url(../img/new-rescue-background.jpg) no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  max-height: 950px;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative; }
 
 .gradbg {
@@ -6146,7 +6152,8 @@ th {
 
 .propodBannerEmbed {
   position: relative;
-  z-index: 2; }
+  z-index: 2;
+  margin-bottom: 45px; }
 
 .prod-ftr {
   margin-top: 50px;
