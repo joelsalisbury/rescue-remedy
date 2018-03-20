@@ -1510,7 +1510,7 @@ pre {
       width: 970px; } }
   @media (min-width: 1200px) {
     .container {
-      width: 1030px; } }
+      width: 1330px; } }
 
 .container-fluid {
   margin-right: auto;
@@ -4371,12 +4371,6 @@ a.thumbnail.active {
   .alert-danger .alert-link {
     color: #843534; }
 
-@-webkit-keyframes progress-bar-stripes {
-  from {
-    background-position: 40px 0; }
-  to {
-    background-position: 0 0; } }
-
 @keyframes progress-bar-stripes {
   from {
     background-position: 40px 0; }
@@ -4410,7 +4404,6 @@ a.thumbnail.active {
 
 .progress.active .progress-bar,
 .progress-bar.active {
-  -webkit-animation: progress-bar-stripes 2s linear infinite;
   animation: progress-bar-stripes 2s linear infinite; }
 
 .progress-bar-success {
@@ -5024,12 +5017,9 @@ button.close {
   -webkit-overflow-scrolling: touch;
   outline: 0; }
   .modal.fade .modal-dialog {
-    -webkit-transform: translate(0, -25%);
     transform: translate(0, -25%);
-    transition: -webkit-transform 0.3s ease-out;
     transition: transform 0.3s ease-out; }
   .modal.in .modal-dialog {
-    -webkit-transform: translate(0, 0);
     transform: translate(0, 0); }
 
 .modal-open .modal {
@@ -5372,22 +5362,16 @@ button.close {
       line-height: 1; }
     @media all and (transform-3d), (-webkit-transform-3d) {
       .carousel-inner > .item {
-        transition: -webkit-transform 0.6s ease-in-out;
         transition: transform 0.6s ease-in-out;
-        -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
-        -webkit-perspective: 1000px;
         perspective: 1000px; }
         .carousel-inner > .item.next, .carousel-inner > .item.active.right {
-          -webkit-transform: translate3d(100%, 0, 0);
           transform: translate3d(100%, 0, 0);
           left: 0; }
         .carousel-inner > .item.prev, .carousel-inner > .item.active.left {
-          -webkit-transform: translate3d(-100%, 0, 0);
           transform: translate3d(-100%, 0, 0);
           left: 0; }
         .carousel-inner > .item.next.left, .carousel-inner > .item.prev.right, .carousel-inner > .item.active {
-          -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
           left: 0; } }
   .carousel-inner > .active,
@@ -6114,12 +6098,10 @@ th {
   background-attachment: fixed;
   background-size: cover;
   min-height: 100vh;
-  display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
   position: relative; }
 
 .gradbg {
@@ -6157,8 +6139,7 @@ th {
 
 .prod-ftr {
   margin-top: 50px;
-  padding: 50px;
-  padding-bottom: 0px; }
+  padding: 50px; }
   .prod-ftr h2 {
     font-size: 70px;
     font-weight: 400; }
@@ -6180,15 +6161,15 @@ th {
 
 .lede {
   border: 6px solid rgba(255, 242, 0, 0.85);
-  padding: 40px;
+  padding: 25px;
   position: relative;
   color: rgba(255, 242, 0, 0.85);
   margin-top: 50px;
   margin-bottom: 50px; }
   .lede h2 {
-    font-size: 68px;
+    font-size: 100px;
     word-spacing: 5px;
-    line-height: 68px; }
+    line-height: 94px; }
   .lede h3 {
     color: rgba(255, 242, 0, 0.85);
     font-size: 18px;
@@ -6245,14 +6226,24 @@ a {
   padding-bottom: 15px;
   font-size: 11px; }
 
+.header {
+  background-color: #fff200;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 11px; }
+
+.allcapsblack {
+  text-transform: uppercase;
+  color: #000;
+  font-weight: bolder;
+  border-radius: 6px; }
+
 @media screen and (min-width: 992px) {
   .prod-ftr {
-    display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
+    -ms-flex-align: center;
+        align-items: center; }
   .prod-highlight {
     position: relative;
     top: -70px; }

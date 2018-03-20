@@ -55,7 +55,6 @@
 .prod-ftr {
 	margin-top:50px;
 	padding:50px;
-	padding-bottom:0px;
 	h2 {
 		font-size:70px;
 		font-weight: 400;
@@ -87,16 +86,16 @@
 
 .lede {
 	border:6px solid $yellow85;
-	padding:40px;
+	padding:25px;
 	position:relative;
 	color:$yellow85; 
 	margin-top:50px;
 	margin-bottom:50px;
 	
 	h2 {
-		font-size:68px;
+		font-size:100px;
 		word-spacing:5px;
-		line-height:68px;
+		line-height:94px;
 	}
 
 	h3 {
@@ -168,4 +167,18 @@ a {
 	padding-top:15px;
 	padding-bottom:15px;
 	font-size:11px; 
+}
+
+.header {
+	background-color:$yellow;
+	padding-top:15px;
+	padding-bottom:15px;
+	font-size:11px;  
+}
+
+.allcapsblack {
+	text-transform: uppercase;
+    color: #000;
+    font-weight: bolder;
+    border-radius: 6px;
 }
