@@ -91,6 +91,11 @@
 	color:$yellow85; 
 	margin-top:50px;
 	margin-bottom:50px;
+
+	.bl {
+		border:6px solid $yellow85;
+		padding:25px;
+	}
 	
 	h2 {
 		font-size:100px;
@@ -172,7 +177,7 @@ a {
 .header {
 	background-color:$yellow;
 	padding-top:15px;
-	padding-bottom:15px;
+	padding-bottom:10px;
 	font-size:11px;  
 }
 
