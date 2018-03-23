@@ -6223,10 +6223,10 @@ blockquote {
     font-size: 16px; }
 
 a {
-  color: #008ae1;
-  text-decoration: underline; }
+  color: #fff200;
+  text-decoration: none; }
   a:hover {
-    color: #15a5ff; }
+    color: #fff533; }
 
 .footer {
   background-color: #fff200;

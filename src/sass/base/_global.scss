@@ -167,11 +167,11 @@ blockquote {
 }
 
 a {
-	color:#008ae1;
-	text-decoration:underline;
+	color:$yellow;
+	text-decoration:none;
 
 	&:hover {
-		color:lighten(#008ae1, 10%);
+		color:lighten($yellow, 10%);
 	
 	}
 }
