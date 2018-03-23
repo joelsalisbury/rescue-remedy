@@ -42,6 +42,10 @@
 	position:relative;
 }
 
+.yellow-stroke-top {
+	border-top:6px solid $yellow85;
+}
+
 .prod-ftr-img-wrap {
 	text-align:center;
 }
@@ -54,7 +58,7 @@
 
 .prod-ftr {
 	margin-top:50px;
-	padding:50px;
+	padding:50px 0px;
 	h2 {
 		font-size:70px;
 		font-weight: 400;
@@ -93,7 +97,7 @@
 	margin-bottom:50px;
 
 	.bl {
-		border:6px solid $yellow85;
+		//border:6px solid $yellow85;
 		padding:25px;
 	}
 	

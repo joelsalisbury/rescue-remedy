@@ -6147,6 +6147,9 @@ th {
   border: 6px solid rgba(255, 242, 0, 0.85);
   position: relative; }
 
+.yellow-stroke-top {
+  border-top: 6px solid rgba(255, 242, 0, 0.85); }
+
 .prod-ftr-img-wrap {
   text-align: center; }
 
@@ -6157,7 +6160,7 @@ th {
 
 .prod-ftr {
   margin-top: 50px;
-  padding: 50px; }
+  padding: 50px 0px; }
   .prod-ftr h2 {
     font-size: 70px;
     font-weight: 400; }
@@ -6184,7 +6187,6 @@ th {
   margin-top: 50px;
   margin-bottom: 50px; }
   .lede .bl {
-    border: 6px solid rgba(255, 242, 0, 0.85);
     padding: 25px; }
   .lede h2 {
     font-size: 100px;
