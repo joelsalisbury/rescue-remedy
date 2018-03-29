@@ -37,6 +37,28 @@
 	display:none;
 }
 
+.vendorlist {
+	background-color:#eee; padding:25px 25px;
+	display:flex;
+	flex-wrap:wrap;
+	div {
+		padding:5px;
+		width:50%;
+	}
+
+	div.available-at {
+		width:100%;
+	}
+}
+
+.mobile-hide {
+	display:none;
+}
+
+.pastille-tin {
+	display:none;
+}
+
 .yellow-stroke {
 	border:6px solid $yellow85;
 	position:relative;

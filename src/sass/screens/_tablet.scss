@@ -1,6 +1,7 @@
 .prod-ftr {
 	display:flex;
 	align-items:center;
+	position: relative; top:-75px;
 }
 
 .prod-highlight {
@@ -9,5 +10,12 @@
 }
 
 .bottom-pin{
+	display:block;
+}
+
+
+
+
+.mobile-hide {
 	display:block;
 }

@@ -6093,6 +6093,21 @@ th {
 .font-gg {
   font-family: "Garden Grown", cursive; }
 
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  height: auto; }
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
 #mainbg {
   background: url(../img/rescue-background-family-portrait.jpg) no-repeat;
   background-attachment: fixed;
@@ -6123,6 +6138,25 @@ th {
   z-index: 1;
   -o-object-fit: cover;
      object-fit: cover;
+  display: none; }
+
+.vendorlist {
+  background-color: #eee;
+  padding: 25px 25px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+  .vendorlist div {
+    padding: 5px;
+    width: 50%; }
+  .vendorlist div.available-at {
+    width: 100%; }
+
+.mobile-hide {
+  display: none; }
+
+.pastille-tin {
   display: none; }
 
 .yellow-stroke {
@@ -6252,12 +6286,24 @@ a {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;
-        align-items: center; }
+        align-items: center;
+    position: relative;
+    top: -75px; }
   .prod-highlight {
     position: relative;
     top: -70px; }
   .bottom-pin {
+    display: block; }
+  .mobile-hide {
     display: block; } }
+
+@media screen and (min-width: 1300px) {
+  .pastille-tin {
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -40%;
+    bottom: 0px; } }
 
 @media screen and (min-width: 1700px) {
   .bottom-pin {
