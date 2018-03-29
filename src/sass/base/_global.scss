@@ -37,6 +37,8 @@
 	display:none;
 }
 
+
+
 .vendorlist {
 	background-color:#eee; padding:25px 25px;
 	display:flex;
@@ -49,6 +51,10 @@
 	div.available-at {
 		width:100%;
 	}
+}
+
+.rescue-tagline img {
+	display:inline;
 }
 
 .mobile-hide {
@@ -79,7 +85,6 @@
 }
 
 .prod-ftr {
-	margin-top:50px;
 	padding:50px 0px;
 	h2 {
 		font-size:70px;
@@ -210,7 +215,8 @@ a {
 	background-color:$yellow;
 	padding-top:15px;
 	padding-bottom:10px;
-	font-size:11px;  
+	font-size:11px; 
+	text-align:center;
 }
 
 .allcapsblack {
