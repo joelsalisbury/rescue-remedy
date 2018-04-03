@@ -6109,7 +6109,7 @@ th {
   height: 100%; }
 
 #mainbg {
-  background: url(../img/family-portrait-bg-3k.jpg) no-repeat;
+  background: url(../img/family-portrait-bg-3k-fix.jpg) no-repeat;
   background-attachment: fixed;
   background-size: cover;
   min-height: 100vh;
