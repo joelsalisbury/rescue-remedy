@@ -6109,7 +6109,7 @@ th {
   height: 100%; }
 
 #mainbg {
-  background: url(../img/rescue-background-family-portrait.jpg) no-repeat;
+  background: url(../img/family-portrait-bg-3k.jpg) no-repeat;
   background-attachment: fixed;
   background-size: cover;
   min-height: 100vh;
@@ -6207,14 +6207,14 @@ blockquote {
   padding: 25px;
   position: relative;
   color: rgba(255, 242, 0, 0.85);
-  margin-top: 50px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  margin-top: 0px; }
   .lede .bl {
     padding: 25px; }
   .lede h2 {
-    font-size: 100px;
+    font-size: 32px;
     word-spacing: 5px;
-    line-height: 90px; }
+    line-height: 32px; }
   .lede h3 {
     color: rgba(255, 242, 0, 0.85);
     font-size: 18px;
@@ -6320,7 +6320,13 @@ a {
   .rescue-tagline {
     float: right;
     position: relative;
-    top: -10px; } }
+    top: -10px; }
+  .lede {
+    margin-top: 50px; }
+  .lede h2 {
+    font-size: 100px;
+    word-spacing: 5px;
+    line-height: 90px; } }
 
 @media screen and (min-width: 1300px) {
   body {

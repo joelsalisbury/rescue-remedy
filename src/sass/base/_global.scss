@@ -1,5 +1,5 @@
 #mainbg {
-	background: url(../img/rescue-background-family-portrait.jpg)  no-repeat;
+	background: url(../img/family-portrait-bg-3k.jpg)  no-repeat;
 	background-attachment:fixed;
 	background-size:cover;
 	min-height:100vh;
@@ -126,8 +126,8 @@ blockquote {
 	padding:25px;
 	position:relative;
 	color:$yellow85; 
-	margin-top:50px;
 	margin-bottom:50px;
+	margin-top:0px;
 
 	.bl {
 		//border:6px solid $yellow85;
@@ -135,9 +135,9 @@ blockquote {
 	}
 	
 	h2 {
-		font-size:100px;
+		font-size:32px;
 		word-spacing:5px;
-		line-height:90px;
+		line-height:32px;
 	}
 
 	h3 {
