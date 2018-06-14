@@ -31,7 +31,7 @@ $('a[href*=#]:not([href=#])').click(function() {
   $(function() {
     $("#amazon_button").on('click', function() {
       var ftRandom = Math.random()*1000000; 
-document.body.innerHTML+='<iframe style="position:absolute; visibility:hidden; width:1px; height:1px;" src="https://servedby.flashtalking.com/container/10734;90761;9360;iframe/?spotName=Nelsons_Coupon_Amazon_page_redirect&cachebuster='+ftRandom+'"></iframe>'; 
+document.body.innerHTML+='<iframe style="position:absolute; visibility:hidden; width:1px; height:1px;" src="https://servedby.flashtalking.com/container/10734;92454;8163;iframe/?spotName=Nelsons_Coupon_Amazon_page_redirect&cachebuster='+ftRandom+'"></iframe>'; 
     });
 
   });
